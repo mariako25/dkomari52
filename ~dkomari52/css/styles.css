@@ -14,16 +14,18 @@ body {
    padding: 20px;
    background-color: #f9f9f9;
 }
+
 p {
    text-indent: 30px
 }
+
 body {
-        background-image: url('../закат.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        position: relative;
+   background-image: url('/~dkomari52/images/закат.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   position: relative;
 }
 
 /* Стили для заголовков */
@@ -42,8 +44,9 @@ h2 {
    border-bottom: 2px solid;
    padding-top: 20px;
 }
+
 h3 {
-    font-size: 1.5rem;
+   font-size: 1.5rem;
    padding-top: 25px;
    padding-bottom: 5px;
 }
@@ -55,22 +58,24 @@ h3 {
    font-size: 1.2rem;
 
 }
+
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   flex-wrap: wrap;
 }
 
 nav a {
-    color: rgb(20, 46, 191);
-    text-decoration: none;
-    padding: 10px 40px;
-    background-color: rgb(136, 255, 140);
-    border-radius: 25px;
-    transition: background-color 0.3s;
+   color: rgb(20, 46, 191);
+   text-decoration: none;
+   padding: 10px 40px;
+   background-color: rgb(136, 255, 140);
+   border-radius: 25px;
+   transition: background-color 0.3s;
 }
+
 .text {
    background-color: rgba(237, 244, 185, 0.554);
    border-radius: 15px;
@@ -79,10 +84,10 @@ nav a {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-    margin: 15px 0;
+   max-width: 100%;
+   height: auto;
+   border-radius: 12px;
+   margin: 15px 0;
 }
 
 /* Стили для 1 семестра*/
@@ -107,7 +112,8 @@ table {
    text-align: center
 }
 
-th, td {
+th,
+td {
    border: 1.5px solid #552702;
    padding: 8px;
 }
@@ -131,6 +137,7 @@ tr:hover {
 
 
 }
+
 /* Стили для списка навыков */
 ul {
    list-style-type: none;
